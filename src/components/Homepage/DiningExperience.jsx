@@ -21,12 +21,12 @@ const DiningExperience = () => {
             className="h-full w-full object-cover"
           />
           <img
-            src="/public/food-truck.jpg"
+            src="/food-truck.jpg"
             alt="image 2"
             className="h-full w-full object-cover"
           />
           <img
-            src="/public/food-truck2.jpg"
+            src="/food-truck2.jpg"
             alt="image 3"
             className="h-full w-full object-cover"
           />
