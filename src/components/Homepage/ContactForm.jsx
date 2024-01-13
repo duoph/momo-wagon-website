@@ -16,7 +16,7 @@ const ContactForm = () => {
       </h1>
       <form
         onSubmit={(e) => onSubmit(e)}
-        className="flex flex-col items-center   justify-center gap-3"
+        className="flex flex-col items-center  justify-center gap-3"
         action=""
       >
         <input
