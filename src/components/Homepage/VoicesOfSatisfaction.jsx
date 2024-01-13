@@ -1,5 +1,6 @@
 import React from "react";
-import VoiceSatisfactionCard from "./VoiceSatisfactioncard";
+import VoiceSatisfactionCard from "../../components/Homepage/VoiceSatisfactionCard";
+// import VoiceSatisfactionCard from "../../components/Homepage/VoiceSatisfactionCard";
 
 const VoicesOfSatisfaction = () => {
   return (

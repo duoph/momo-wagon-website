@@ -1,10 +1,3 @@
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  Typography,
-  Avatar,
-} from "@material-tailwind/react";
 
 const VoiceSatisfactionCard = () => {
   return (
