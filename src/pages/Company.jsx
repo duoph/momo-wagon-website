@@ -58,7 +58,7 @@ const Company = () => {
         </div>
         <div className="bg-red-blob bg-110 w-1/4 mask-container hidden lg:flex">
           <img
-            src="/public/close-up-delicious-asian-food.jpg"
+            src="/close-up-delicious-asian-food.jpg"
             className="vc-image-1"
             alt=""
           />
@@ -66,12 +66,12 @@ const Company = () => {
       </div>
       <div className="flex items-center justify-center gap-3">
         <img
-          src="/public/food-truck.jpg"
+          src="/food-truck.jpg"
           className="px-2 hidden lg:flex h-[300px] rounded-3xl"
           alt="FoodTruck"
         />
         <img
-          src="/public/food-truck.jpg"
+          src="/food-truck.jpg"
           alt="FoodTruck"
           className="px-2 md:h-[300px] h-[200px] rounded-3xl"
         />

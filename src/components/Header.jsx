@@ -40,9 +40,9 @@ const Header = () => {
           <Link to={"/menu"} className="cursor-pointer">
             Menu
           </Link>
-          <Link to={"#contact"} className="cursor-pointer">
+          {/* <Link to={"#contact"} className="cursor-pointer">
             Contact
-          </Link>
+          </Link> */}
           <Link to={"/team"} className="cursor-pointer">
             Team
           </Link>
