@@ -35,7 +35,7 @@ const Menu = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center gap-3 lg:px-10 md:px-5 px-3 px-4 mb-5">
+    <div className="flex flex-col items-center justify-center gap-3 lg:px-10 md:px-5 mb-5">
       <div className="flex flex-col items-center justify-center gap-4">
         <h1 className="text-momo-red text-[30px] font-bold">Menu</h1>
 
@@ -126,7 +126,11 @@ const Menu = () => {
             </div>
             <button
               onClick={resetFilters}
-              className="border border-momo-primary px-3 py-2 rounded-2xl"
+              className={`${
+                selectedFoodItem || selectedPreparation
+                  ? "bg-momo-red text-white"
+                  : "border border-momo-primary"
+              } px-3 py-2 rounded-2xl`}
             >
               Reset Filters
             </button>
