@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -7,7 +8,11 @@ const Footer = () => {
       <div className="bg-yellow-blob hidden lg:flex w-[500px] h-[500px] absolute -right-[300px] top-[100px] "></div>
       <div className=" w-full flex items-center lg:px-[200px] md:px-16 px-6 h-[400px] justify-between ">
         <div className="flex flex-col items-center justify-center gap-2">
-          <img className="md:w-[200px] w-[100px]" src="momoWagonBlack.png" alt="MomoWagon" />
+          <img
+            className="md:w-[200px] w-[100px]"
+            src="momoWagonBlack.png"
+            alt="MomoWagon"
+          />
           <p className="w-[200px] flex-wrap text-center">
             NH 66, opp. TMM convention center, Palathara, Kottakkal,Kerala
             676501
@@ -24,15 +29,15 @@ const Footer = () => {
         </div>
         <div>
           <h1 className="underline">Quick Links</h1>
-          <ul className="text-[15px]">
-            <li>About Us</li>
-            <li>Menu</li>
-            <li>Team</li>
-            <li>Company</li>
-            <li>Terms of Service</li>
-            <li>Privacy Policy</li>
-            <li>Faq</li>
-          </ul>
+          <div className="text-[15px] flex items-start justify-center flex-col">
+            <Link to="/about-us">About Us</Link>
+            <Link to="/menu">Menu</Link>
+            <Link to="/team">Team</Link>
+            <Link to="/company">Company</Link>
+            <Link to="/terms-of-service">Terms of Service</Link>
+            <Link to="/privacy-policy">Privacy Policy</Link>
+            <Link to="/faq">Faq</Link>
+          </div>
         </div>
       </div>
       <div className="flex items-center justify-center">

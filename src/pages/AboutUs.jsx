@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 
-document.title = "MomoWagon - About";
-
 const AboutUs = () => {
   const [showFullText, setShowFullText] = useState(false);
 
