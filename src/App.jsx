@@ -9,7 +9,7 @@ import Menu from "./pages/Menu";
 
 function App() {
   return (
-    <HashRouter>
+    <HashRouter hashType="noSlash">
       <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />

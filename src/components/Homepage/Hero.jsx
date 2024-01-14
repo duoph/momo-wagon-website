@@ -1,5 +1,6 @@
 import React from "react";
 import { FaPlay } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -16,10 +17,13 @@ const Hero = () => {
           <button className="px-4 md:px-10 text-[13px] md:text-[20px] py-3 bg-momo-primary rounded-3xl hover:bg-opacity-70 font-semibold">
             Order Now
           </button>
-          <button className="px-4 md:px-10 py-3  text-[13px] md:text-[20px]  flex items-center justify-center gap-2 hover:opacity-90 hover:bg-momo-black hover:bg-opacity-[0.3] rounded-3xl font-semibold">
+          <Link
+            to={"/menu"}
+            className="px-4 md:px-10 py-3  text-[13px] md:text-[20px]  flex items-center justify-center gap-2 hover:opacity-90 hover:bg-momo-black hover:bg-opacity-[0.3] rounded-3xl font-semibold"
+          >
             <FaPlay />
             Menu
-          </button>
+          </Link>
         </div>
       </div>
     </div>
