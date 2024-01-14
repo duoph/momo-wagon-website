@@ -1,4 +1,4 @@
-import {  Routes, Route, HashRouter } from "react-router-dom";
+import { Routes, Route, HashRouter } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -19,7 +19,7 @@ function App() {
         <Route path="/menu" element={<Menu />} />
       </Routes>
       <Footer />
-    </Hasro>
+    </HashRouter>
   );
 }
 
