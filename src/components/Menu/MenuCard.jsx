@@ -2,7 +2,7 @@ import React from "react";
 
 const MenuCard = ({ item }) => {
   return (
-    <div className="flex items-center justify-center flex-col md:w-[200px] w-[180px] rounded-2xl bg-momo-primary shadow-2xl">
+    <div className="flex items-center justify-center flex-col md:w-[200px] w-[170px] rounded-2xl bg-momo-primary shadow-2xl">
       <div>
         <img src="/momos-plate-4.png" alt="momos" className="h-[180px]" />
       </div>
