@@ -29,7 +29,7 @@ const Menu = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center gap-3 lg:px-10 md:px-5 mb-5">
+    <div className="flex flex-col items-center justify-center gap-3 lg:px-10 md:px-5 px-3 mb-5">
       <div className="flex flex-col items-center justify-center gap-4">
         <h1 className="text-momo-red text-[30px] font-bold">Menu</h1>
         {/* Search option */}
@@ -129,7 +129,7 @@ const Menu = () => {
         </div>
       </div>
 
-      <div className="flex items-center justify-center gap-3  flex-wrap">
+      <div className="flex items-center w-full flex-wrap justify-center gap-2">
         {filteredMenu.map((item, i) => (
           <MenuCard key={i} item={item} />
         ))}

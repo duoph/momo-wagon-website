@@ -4,7 +4,7 @@ const Company = () => {
   return (
     <div className="flex items-center flex-col justify-between lg:px-10 md:px-5 px-4 gap-4 mb-5">
       <div className="flex items-center justify-between">
-        <div className="flex items-center justify-center flex-col gap-3  lg:w-3/4">
+        <div className="flex items-center justify-center flex-col gap-3  lg:w-full">
           <h1 className="text-momo-red text-[30px] font-bold">Company</h1>
           <p className="break-all">
             Welcome to Weirdly Wonderful Foods, the innovative force reshaping
@@ -56,13 +56,13 @@ const Company = () => {
             open cafe or open food courts etc.. Or group of food trucks in vibe.
           </p>
         </div>
-        <div className="bg-red-blob bg-110 w-1/4 mask-container hidden lg:flex">
+        {/* <div className="bg-red-blob bg-110 w-1/4 mask-container hidden lg:flex">
           <img
             src="/close-up-delicious-asian-food.jpg"
             className="vc-image-1"
             alt=""
           />
-        </div>
+        </div> */}
       </div>
       <div className="flex items-center justify-center gap-3">
         <img
@@ -73,7 +73,7 @@ const Company = () => {
         <img
           src="/food-truck.jpg"
           alt="FoodTruck"
-          className="px-2 md:h-[300px] h-[200px] rounded-3xl"
+          className="px-2 md:h-[300px] w-full  rounded-3xl"
         />
       </div>
     </div>
