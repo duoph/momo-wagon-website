@@ -21,10 +21,18 @@ const Footer = () => {
             Call Now
           </button>
           <div className="flex items-center justify-center gap-2">
-            <img className="w-8" src="/twitter.svg" alt="twiiter" />
-            <img className="w-8" src="/insta.svg" alt="instagram" />
-            <img className="w-8" src="/facebook.svg" alt="facebook" />
-            <img className="w-8" src="/whatsapp.svg" alt="whatsapp" />
+            <a href="https://www.instagram.com/momowagon_india/">
+              <img className="w-8" src="/twitter.svg" alt="twiiter" />
+            </a>
+            <a href="">
+              <img className="w-8" src="/insta.svg" alt="instagram" />
+            </a>
+            <a href="">
+              <img className="w-8" src="/facebook.svg" alt="facebook" />
+            </a>
+            <a href="">
+              <img className="w-8" src="/whatsapp.svg" alt="whatsapp" />
+            </a>
           </div>
         </div>
         <div>
@@ -43,7 +51,9 @@ const Footer = () => {
       <div className="flex items-center justify-center">
         <span className="font-thin text-sm mb-4">
           Copyright © 2023 Momo Wagon | Powered by {""}
-          <a href="www.duoph.com">Duoph</a>
+          <a target="_blank" href="https://duoph.com/">
+            Duoph
+          </a>
         </span>
       </div>
     </div>

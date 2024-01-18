@@ -48,10 +48,10 @@ const AboutUs = () => {
             </button>
           )}
         </div>
-        <div className="bg-red-blob bg-110 w-1/4 mask-container hidden lg:flex">
+        <div className="bg-red-blob bg-110 w-2/4 mask-container hidden lg:flex">
           <img
             src="/close-up-delicious-asian-food.jpg"
-            className="vc-image-1"
+            className="vc-image-1 rounded-2xl"
             alt=""
           />
         </div>
