@@ -37,9 +37,12 @@ const Header = () => {
           <Link to={"/about-us"} className="cursor-pointer">
             About Us
           </Link>
-          <Link to={"/menu"} className="cursor-pointer">
+          <a
+            href={"https://themomowagon.shopto.store/"}
+            className="cursor-pointer"
+          >
             Menu
-          </Link>
+          </a>
           <Link to={"/team"} className="cursor-pointer">
             Team
           </Link>

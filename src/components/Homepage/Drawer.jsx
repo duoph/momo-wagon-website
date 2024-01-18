@@ -1,9 +1,5 @@
 import React from "react";
-import {
-  Drawer,
-  Typography,
-  IconButton,
-} from "@material-tailwind/react";
+import { Drawer, Typography, IconButton } from "@material-tailwind/react";
 import { IoMenu } from "react-icons/io5";
 import { Link, useLocation } from "react-router-dom";
 
@@ -64,16 +60,13 @@ const DrawerWithNavigation = () => {
           >
             About Us
           </Link>
-          <Link onClick={closeDrawer} to={"/menu"} className="cursor-pointer">
-            Menu
-          </Link>
-          {/* <Link
+          <a
             onClick={closeDrawer}
-            to={"#contact"}
+            href={"https://themomowagon.shopto.store/"}
             className="cursor-pointer"
           >
-            Contact
-          </Link> */}
+            Menu
+          </a>
           <Link onClick={closeDrawer} to={"/team"} className="cursor-pointer">
             Team
           </Link>
