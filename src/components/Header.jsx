@@ -16,18 +16,18 @@ const Header = () => {
   console.log(location);
 
   return (
-    <div className="flex h-[100px] items-center justify-between md:px-5 px-3">
+    <div className="flex h-[100px] items-center justify-between md:px-5 lg:mt-5 px-3">
       <Link to={"/"}>
         {whiteLogo ? (
           <img
             src={"/MomoWagonWhite.png"}
-            className="w-[120px] md:w-[180px]"
+            className="w-[120px] md:w-[160px] lg:w-[180px]"
             alt="Logo"
           />
         ) : (
           <img
             src={"/momoWagonBlack.png"}
-            className="w-[120px] md:w-[180px]"
+            className="w-[120px] md:w-[160px] lg:w-[180px]"
             alt="Logo"
           />
         )}
