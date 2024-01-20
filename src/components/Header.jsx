@@ -21,13 +21,13 @@ const Header = () => {
         {whiteLogo ? (
           <img
             src={"/MomoWagonWhite.png"}
-            className="w-[120px] md:w-[170px]"
+            className="w-[120px] md:w-[180px]"
             alt="Logo"
           />
         ) : (
           <img
             src={"/momoWagonBlack.png"}
-            className="w-[100px] mt-2"
+            className="w-[120px] md:w-[180px]"
             alt="Logo"
           />
         )}

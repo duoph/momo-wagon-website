@@ -15,7 +15,7 @@ const DrawerWithNavigation = () => {
   return (
     <React.Fragment>
       <IoMenu
-        size={50}
+        size={35}
         className={`cursor-pointer mt-2 ${allBlack}`}
         onClick={openDrawer}
       />
