@@ -19,7 +19,11 @@ const Header = () => {
     <div className="flex h-[100px] items-center justify-between md:px-5 px-3">
       <Link to={"/"}>
         {whiteLogo ? (
-          <img src={"/MomoWagonWhite.png"} className="w-[120px]" alt="Logo" />
+          <img
+            src={"/MomoWagonWhite.png"}
+            className="w-[120px] md:w-[170px]"
+            alt="Logo"
+          />
         ) : (
           <img
             src={"/momoWagonBlack.png"}

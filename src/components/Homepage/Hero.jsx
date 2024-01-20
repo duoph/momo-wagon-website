@@ -8,8 +8,8 @@ const Hero = () => {
       <div className="w-screen bgimage h-screen brightness-50 absolute top-0 right-0  -z-30"></div>
       <div className="flex flex-col gap-5 items-center justify-center px-10">
         <div className="text-white flex flex-col items-center justify-center">
-          <h1 className="text-[40px] md:text-[80px] font-bold ">Momo Wagon</h1>
-          <p className="text-[20px] md:text-[25px] font-light">
+          <h1 className="text-[60px] md:text-[80px] font-bold ">MOMO WAGON</h1>
+          <p className="text-[30px] md:text-[40px] font-light">
             Authentic Himalayan Cuisine
           </p>
         </div>

@@ -22,14 +22,14 @@ const DrawerWithNavigation = () => {
       <Drawer
         overlay={false}
         placement={"right"}
-        className="bg-momo-primary text-white"
+        className="bg-black text-white"
         open={open}
         onClose={closeDrawer}
       >
-        <div className="mb-2 flex items-center justify-between p-4">
-          <Typography variant="h5" className="text-momo-red">
+        <div className="mb-2 flex items-center justify-end p-4">
+          {/* <Typography variant="h5" className="text-momo-red">
             Momo Wagon
-          </Typography>
+          </Typography> */}
           <IconButton variant="text" color="blue-gray" onClick={closeDrawer}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -37,7 +37,7 @@ const DrawerWithNavigation = () => {
               viewBox="0 0 24 24"
               strokeWidth={2}
               stroke="currentColor"
-              className="h-5 w-5"
+              className="h-5 w-5 text-end"
             >
               <path
                 strokeLinecap="round"
@@ -48,7 +48,7 @@ const DrawerWithNavigation = () => {
           </IconButton>
         </div>
         <div
-          className={`flex flex-col px-6 items-start justify-center gap-10 text-white`}
+          className={`flex flex-col px-6 items-start justify-center gap-10 text-white font-bold text-[20px]`}
         >
           <Link onClick={closeDrawer} to={"/"} className="cursor-pointer">
             Home
