@@ -35,7 +35,7 @@ export const teamData = [
         "id": 4,
         "name": "Dipin Chaudhary",
         "role": "All-Rounder",
-        "description": "Meet Dipin Chaudhary, the all-rounder at Momo Wagon. With his versatile skills, every day feels complete. His presence adds positivity, making him an essential part of our success.",
+        "description": "Meet Dipin Chaudhary , the all-rounder at Momo Wagon. With his versatile skills, every day feels complete. His presence adds positivity, making him an essential part of our success.",
     }
 ]
 
