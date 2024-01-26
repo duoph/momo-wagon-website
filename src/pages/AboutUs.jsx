@@ -29,9 +29,9 @@ const AboutUs = () => {
   return (
     <div className="flex items-center flex-col justify-between lg:px-10 md:px-5 px-4 gap-4 mb-5">
       <div className="flex items-center justify-between gap-4 mb-5 ">
-        <div className="flex items-center justify-center flex-col gap-3 lg:w-3/4">
+        <div className="flex items-center md:px-30 justify-center flex-col gap-3 lg:w-3/4">
           <h1 className="text-momo-red text-[30px] font-bold">About Us</h1>
-          <p className="break-all">{displayedText}</p>
+          <p className="break-all ">{displayedText}</p>
           {!showFullText ? (
             <button
               className="text-momo-red underline"
@@ -56,7 +56,7 @@ const AboutUs = () => {
           />
         </div>
       </div>
-      <div className="flex items-center flex-col justify-center gap-56 md:flex-row mx-64">
+      <div className="flex items-center flex-col justify-center md:gap-56  gap-8 md:flex-row md:px-64">
         <div className="flex flex-col items-center justify-center gap-2">
           <h1 className="text-momo-red text-[25px] font-bold">Our Mission</h1>
           <p>

@@ -1,6 +1,7 @@
 import React from "react";
 import VoiceSatisfactionCard from "../../components/Homepage/VoiceSatisfactionCard";
 // import VoiceSatisfactionCard from "../../components/Homepage/VoiceSatisfactionCard";
+import  customerReview from "../../utils/Testimonial"
 
 const VoicesOfSatisfaction = () => {
   return (
@@ -11,15 +12,18 @@ const VoicesOfSatisfaction = () => {
         </h1>
       </div>
       <div className="flex items-center justify-center flex-wrap gap-4">
-        <div className=" md:hidden flex items-center justify-center flex-wrap gap-4">
-          <VoiceSatisfactionCard />
-          <VoiceSatisfactionCard />
+        {customerReview.map((item)=>(
+
+        <div key={item.id} className=" md:hidden flex items-center justify-center flex-wrap gap-4">
+          <VoiceSatisfactionCard item={item}/>
+          
         </div>
+        ))}
         <div className="md:flex hidden items-center justify-center flex-wrap gap-4">
+          {/* <VoiceSatisfactionCard />
           <VoiceSatisfactionCard />
           <VoiceSatisfactionCard />
-          <VoiceSatisfactionCard />
-          <VoiceSatisfactionCard />
+          <VoiceSatisfactionCard /> */}
         </div>
       </div>
     </div>

@@ -16,7 +16,7 @@ const Header = () => {
   console.log(location);
 
   return (
-    <div className="flex h-[100px] items-center justify-between md:px-5 lg:mt-5 px-3">
+    <div className="flex h-[100px]  md:ml-10 ml-500 items-center justify-between md:px-5 lg:mt-5 px-3">
       <Link to={"/"}>
         {whiteLogo ? (
           <img
