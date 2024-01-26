@@ -33,7 +33,7 @@ const Header = () => {
         )}
       </Link>
 
-      <div className="text-white hidden lg:flex font-semibold text-[20px] lg:text-[25px] px-10">
+      <div className="text-white hidden lg:flex font-medium text-[20px] lg:text-[25px] px-10">
         <div className={`flex items-center justify-center gap-10 ${allBlack}`}>
           <Link to={"/"} className="cursor-pointer">
             Home

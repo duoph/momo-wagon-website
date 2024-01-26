@@ -56,11 +56,11 @@ const AboutUs = () => {
           />
         </div>
       </div>
-      <div className="flex items-center flex-col justify-center gap-3 md:flex-row">
+      <div className="flex items-center flex-col justify-center gap-56 md:flex-row mx-64">
         <div className="flex flex-col items-center justify-center gap-2">
           <h1 className="text-momo-red text-[25px] font-bold">Our Mission</h1>
           <p>
-            "Mission Our mission at Momo Wagon is simple—to bring authentic
+            "Our mission at Momo Wagon is simple—to bring authentic
             Himalayan cuisine, and the joy of freshly made momos, to the tables
             of every momo lover. We're here to share flavors, one bite at a
             time."
