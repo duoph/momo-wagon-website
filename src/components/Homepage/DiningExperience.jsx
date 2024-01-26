@@ -16,17 +16,32 @@ const DiningExperience = () => {
           loop={true}
         >
           <img
-            src="/image-truck.png"
+            src="/foodtruck1.jpg"
             alt="image 1"
             className="h-full w-full object-cover"
           />
           <img
-            src="/food-truck.jpg"
-            alt="image 2"
+            src="/foodtruck2.jpg"
+            alt="Momowagon"
             className="h-full w-full object-cover"
           />
           <img
-            src="/food-truck2.jpg"
+            src="/foodtruck3.jpg"
+            alt="image 3"
+            className="h-full w-full object-cover"
+          />
+          <img
+            src="/foodtruck4.jpg"
+            alt="image 3"
+            className="h-full w-full object-cover"
+          />
+          <img
+            src="/foodtruck6.jpg"
+            alt="image 3"
+            className="h-full w-full object-cover"
+          />
+          <img
+            src="/foodtruck7.jpg"
             alt="image 3"
             className="h-full w-full object-cover"
           />
