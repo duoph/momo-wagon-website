@@ -7,9 +7,9 @@ const ProfileCard = ({ profile }) => {
         <img src="/person.png" alt="ProfilePhoto" />
       </div>
       <div className=" flex flex-col items-center justify-start rounded-3xl  py-3 px-3">
-        <h1 className="text-center font-bold text-lg">{profile.name}</h1>
-        <span className="text-center font-semibold mb-2">({profile.role})</span>
-        <p className="break-all">{profile.description}</p>
+        <h1 className="text-center mont-bold text-lg">{profile.name}</h1>
+        <span className="text-center mont-reg mb-2">({profile.role})</span>
+        <p className="break-all mont-reg">{profile.description}</p>
       </div>
     </div>
   );

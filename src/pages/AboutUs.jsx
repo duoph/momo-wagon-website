@@ -30,18 +30,18 @@ const AboutUs = () => {
     <div className="flex items-center flex-col justify-between lg:px-10 md:px-5 px-4 gap-4 mb-5">
       <div className="flex items-center justify-between gap-4 mb-5 ">
         <div className="flex items-center md:px-30 justify-center flex-col gap-3 lg:w-3/4">
-          <h1 className="text-momo-red text-[30px] font-bold">About Us</h1>
-          <p className="break-all ">{displayedText}</p>
+          <h1 className="text-momo-red text-[30px] mont-heavy">About Us</h1>
+          <p className="break-all mont-reg ">{displayedText}</p>
           {!showFullText ? (
             <button
-              className="text-momo-red underline"
+              className="text-momo-red underline mont-reg"
               onClick={toggleFullText}
             >
               Read More
             </button>
           ) : (
             <button
-              className="text-momo-red underline"
+              className="text-momo-red underline mont-reg"
               onClick={() => setShowFullText(false)}
             >
               Read Less
@@ -58,8 +58,8 @@ const AboutUs = () => {
       </div>
       <div className="flex items-center flex-col justify-center md:gap-56  gap-8 md:flex-row md:px-64">
         <div className="flex flex-col items-center justify-center gap-2">
-          <h1 className="text-momo-red text-[25px] font-bold">Our Mission</h1>
-          <p>
+          <h1 className="text-momo-red text-[25px] mont-bold">Our Mission</h1>
+          <p className="mont-reg"> 
             "Our mission at Momo Wagon is simple—to bring authentic
             Himalayan cuisine, and the joy of freshly made momos, to the tables
             of every momo lover. We're here to share flavors, one bite at a
@@ -67,8 +67,8 @@ const AboutUs = () => {
           </p>
         </div>
         <div className="flex flex-col items-center justify-center gap-2">
-          <h1 className="text-momo-red text-[25px] font-bold">Our Vision</h1>
-          <p>
+          <h1 className="text-momo-red text-[25px] mont-bold">Our Vision</h1>
+          <p className="mont-reg">
             "To be the go-to destination for delightful Himalayan momos,
             spreading joy and flavors in every town. Momo Wagon envisions a
             future where every bite brings smiles and satisfaction to our

@@ -13,13 +13,16 @@ const Footer = () => {
             src="momoWagonBlack.png"
             alt="MomoWagon"
           />
-          <p className="w-[200px] flex-wrap text-center">
+          <p className="w-[200px] flex-wrap text-center mont-reg">
             NH 66, opp. TMM convention center, Palathara, Kottakkal,Kerala
             676501
           </p>
-          <button className="bg-momo-primary px-4 py-2 hover:bg-yellow-600 rounded-2xl">
-            Call Now
+         <a href="tel:7012253518">
+         <button className="bg-momo-primary px-4 py-2 hover:bg-yellow-600 rounded-2xl mont-bold">
+         Call Now
           </button>
+          </a> 
+        
           <div className="flex items-center justify-center gap-2">
             <a href="https://www.instagram.com/momowagon_india/">
               <img className="w-8" src="/twitter.svg" alt="twiiter" />
@@ -36,8 +39,8 @@ const Footer = () => {
           </div>
         </div>
         <div>
-          <h1 className="underline">Quick Links</h1>
-          <div className="text-[15px] flex items-start justify-center flex-col">
+          <h1 className="underline mont-bold">Quick Links</h1>
+          <div className="text-[15px] flex items-start justify-center flex-col mont-reg">
             <Link to="/about-us">About Us</Link>
             <Link to="/menu">Menu</Link>
             <Link to="/team">Team</Link>
@@ -49,7 +52,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex items-center justify-center">
-        <span className="font-thin text-sm mb-4">
+        <span className="font-thin text-sm mb-4 mont-reg">
           Copyright © 2023 Momo Wagon | Powered by {""}
           <a target="_blank" href="https://duoph.com/">
             Duoph

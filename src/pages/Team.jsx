@@ -6,10 +6,10 @@ const Team = () => {
   return (
     <div className="">
       <div className="flex items-center justify-center flex-col gap-3 lg:px-32 md:px-16 px-8">
-        <h1 className="text-center text-[30px] font-bold text-momo-red">
+        <h1 className="text-center text-[30px] mont-heavy text-momo-red">
           Our Team
         </h1>
-        <p className="break-all">
+        <p className="break-all mont-reg">
           "Discover the Faces Behind Momo Wagon: A Collective of Culinary
           Visionaries, Entrepreneurs, and Innovators. Meet the Team Committed to
           Elevating Your Dining Experience with Freshly Crafted Himalayan Momos.
