@@ -20,10 +20,11 @@ const VoicesOfSatisfaction = () => {
         </div>
         ))}
         <div className="md:flex hidden items-center justify-center flex-wrap gap-4">
-          {/* <VoiceSatisfactionCard />
-          <VoiceSatisfactionCard />
-          <VoiceSatisfactionCard />
-          <VoiceSatisfactionCard /> */}
+           {customerReview.map((item)=>(
+
+             <VoiceSatisfactionCard key={item.id} item={item}/>
+           ))}
+       
         </div>
       </div>
     </div>
