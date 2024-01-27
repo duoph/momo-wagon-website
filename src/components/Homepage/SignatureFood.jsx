@@ -13,9 +13,9 @@ const contentStyle = {
 
 const SignatureFood = () => {
   return (
-    <div className="flex flex-col py-1 px-10 items-center justify-center gap-10">
+    <div className="flex flex-col md:py-32 py-10 px-10 items-center justify-center gap-10">
       <div className="flex items-center justify-center">
-        <h1 className="text-momo-red font-bold  text-2xl md:text-3xl">
+        <h1 className="text-momo-red font-bold  text-2xl md:text-3xl mont-heavy">
           Our Few Signatures
         </h1>
       </div>

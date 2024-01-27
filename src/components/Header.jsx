@@ -16,12 +16,12 @@ const Header = () => {
   console.log(location);
 
   return (
-    <div className="flex h-[100px]  md:ml-10 ml-500 items-center justify-between md:px-5 lg:mt-5 px-3">
+    <div className="flex h-[100px] px-28   items-center justify-between  lg:mt-5 ">
       <Link to={"/"}>
         {whiteLogo ? (
           <img
             src={"/MomoWagonWhite.png"}
-            className="w-[120px] md:w-[160px] lg:w-[160px]"
+            className="w-[120px] md:w-[160px] lg:w-[130px]"
             alt="Logo"
           />
         ) : (
@@ -33,7 +33,7 @@ const Header = () => {
         )}
       </Link>
 
-      <div className="text-white hidden lg:flex font-medium text-[20px] lg:text-[25px] px-10">
+      <div className="text-white hidden lg:flex mont-reg font-medium text-[20px] lg:text-[20px] px-10">
         <div className={`flex items-center justify-center gap-10 ${allBlack}`}>
           <Link to={"/"} className="cursor-pointer">
             Home

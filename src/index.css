@@ -2,11 +2,35 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Mont"; /* The name you want to give to your font */
+  src: url("../src/assets/Font/Mont-Regular.woff") format("woff"); /* Path to your font file */
+}
+@font-face {
+  font-family: "Mont-Heavy"; /* The name you want to give to your font */
+  src: url("../src/assets/Font/Mont-Heavy.woff") format("woff"); /* Path to your font file */
+}
+@font-face {
+  font-family: "Mont-Bold"; /* The name you want to give to your font */
+  src: url("../src/assets/Font/Mont-Bold\ \(1\).woff") format("woff"); /* Path to your font file */
+}
 
 
 body {
   background: #fff;
   scroll-behavior: smooth;
+}
+
+.mont-reg{
+  font-family:"Mont" ;
+}
+
+.mont-bold{
+  font-family: "Mont-Bold";
+}
+
+.mont-heavy{
+  font-family: "Mont-Heavy";
 }
 
 .bgimage {
@@ -27,6 +51,19 @@ body {
   background-size: cover;
   width: 300px;
   height: 300px;
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.hideScrollBar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.hideScrollBar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
 }
 
 /* 

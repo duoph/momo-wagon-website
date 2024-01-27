@@ -1,10 +1,16 @@
 /** @type {import('tailwindcss').Config} */
+const MontBold = "./Font/Mont-HeavyDEMO.otf";
+
 const withMT = require("@material-tailwind/react/utils/withMT");
 
 module.exports = withMT({
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
   theme: {
+   
     extend: {
+      fontFamily:{
+        'mont-bold': ['Mont-Bold', 'sans']
+      },
       colors: {
         "momo-primary": "#f9b233",
         "momo-orange": "#dd8118",
