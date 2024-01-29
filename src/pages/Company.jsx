@@ -1,8 +1,16 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 
 const Company = () => {
   return (
+    <>
+    <Helmet>
+      <title>Company</title>
+      <meta name="description" content="Unleash your taste buds at Weirdly Wonderful Foods, home of unique culinary experiences! From Momo Wagon's Himalayan delights to vibrant open cafe food courts, discover a world of flavor & innovation. "/>
+    <link rel="canonical" href="https://www.momowagon.com/#/company" />
+    </Helmet>
+   
     <div className="flex items-center flex-col justify-between lg:px-10 md:px-5 px-4 gap-4 mb-5">
       <div className="flex items-center justify-between">
         <div className="flex items-center justify-center pt-16 flex-col gap-3  lg:w-full">
@@ -78,6 +86,7 @@ const Company = () => {
         />
       </div>
     </div>
+    </>
   );
 };
 
