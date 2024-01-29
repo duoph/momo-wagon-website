@@ -22,13 +22,13 @@ const Header = () => {
           <img
             src={"/MomoWagonWhite.png"}
             className="w-[120px] md:w-[160px] lg:w-[130px]"
-            alt="Logo"
+            alt="Momowagon Logo"
           />
         ) : (
           <img
             src={"/momoWagonBlack.png"}
             className="w-[120px] md:w-[160px] lg:w-[160px]"
-            alt="Logo"
+            alt="MomowagonLogo"
           />
         )}
       </Link>
@@ -56,7 +56,7 @@ const Header = () => {
         </div>
       </div>
       <div
-        className="text-white flex items-center justify-center lg:hidden "
+        className="text-white flex items-center justify-center lg:hidden mr-[-100px]"
         onClick={() => setMenuOpen(true)}
       >
         <DrawerBar isMenuOpen={isMenuOpen} />
