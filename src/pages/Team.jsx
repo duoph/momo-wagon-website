@@ -7,7 +7,7 @@ const Team = () => {
   return (
     <>
       <Helmet>
-        <title>Our Team</title>
+        <title>Our Team-Momowagon</title>
         <meta
           name="description"
           content="Meet the Momo Wagon team! Passionate chefs, innovative entrepreneurs, & local artisans bring you authentic Himalayan momos. Taste the tradition, savor the fusion."

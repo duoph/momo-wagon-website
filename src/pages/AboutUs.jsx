@@ -30,7 +30,7 @@ const AboutUs = () => {
   return (
     <>
       <Helmet>
-        <title>About Us</title>
+        <title>About Us-Momowagon</title>
         <meta
           name="description"
           content="Discover the story behind Momo Wagon, a culinary venture offering authentic Himalayan momos. Join us on a gastronomic journey of passion, innovation, and exceptional food."

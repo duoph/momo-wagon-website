@@ -6,7 +6,7 @@ const Company = () => {
   return (
     <>
     <Helmet>
-      <title>Company</title>
+      <title>Company-Momowagon</title>
       <meta name="description" content="Unleash your taste buds at Weirdly Wonderful Foods, home of unique culinary experiences! From Momo Wagon's Himalayan delights to vibrant open cafe food courts, discover a world of flavor & innovation. "/>
     <link rel="canonical" href="https://www.momowagon.com/#/company" />
     </Helmet>
