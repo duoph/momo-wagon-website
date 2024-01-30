@@ -16,7 +16,7 @@ const Header = () => {
   console.log(location);
 
   return (
-    <div className="flex h-[100px] px-28   items-center justify-between  lg:mt-5 ">
+    <div className="flex h-[100px] md:px-28  px-5 items-center justify-between  lg:mt-5 ">
       <Link to={"/"}>
         {whiteLogo ? (
           <img
@@ -56,7 +56,7 @@ const Header = () => {
         </div>
       </div>
       <div
-        className="text-white flex items-center justify-center lg:hidden mr-[-100px]"
+        className="text-white flex items-center justify-center lg:hidden "
         onClick={() => setMenuOpen(true)}
       >
         <DrawerBar isMenuOpen={isMenuOpen} />

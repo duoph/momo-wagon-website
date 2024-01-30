@@ -2,7 +2,7 @@ import React from "react";
 
 const GetInTouch = () => {
   return (
-    <div className=" h-[300px] w-full px-10 py-3 flex flex-col md:flex-row  gap-3">
+    <div className=" h-[300px] w-full px-10  py-[40px] flex flex-col md:flex-row mt-20">
       <div className="px-10">
         <h1 className="text-[30px] font-bold  text-momo-red mont-heavy">
           Get in Touch

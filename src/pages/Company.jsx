@@ -15,7 +15,7 @@ const Company = () => {
       <div className="flex items-center justify-between">
         <div className="flex items-center justify-center pt-16 flex-col gap-3  lg:w-full">
           <h1 className="text-momo-red text-[30px] mont-heavy ">Our Company</h1>
-          <p className="break-all px-32 text-[18px] mont-reg ">
+          <p className="break-all   text-[18px] mont-reg ">
             Welcome to Weirdly Wonderful Foods, the innovative force reshaping
             culinary experiences, spearheading ventures like Momo Wagon. In the
             tapestry of entrepreneurial endeavors, Weirdly Wonderful Foods

@@ -10,7 +10,7 @@ const ContactForm = () => {
  
 
   return (
-    <div className="flex  items-center justify-center flex-col gap-4  bg-red-blob  bg-no-repeat lg:bg-left lg:bg-1400px bg-center md:bg-110 bg-500 w-full lg:w-[110%] p-10 mt-10">
+    <div className="flex  items-center justify-center flex-col gap-4  bg-red-blob  bg-no-repeat lg:bg-left lg:bg-1400px bg-center md:bg-110 bg-500 w-full lg:w-[110%] p-10 mt-20">
       <h1 className="md:text-[30px] text-[20px] mont-bold text-white">
         Leave a Message
       </h1>
