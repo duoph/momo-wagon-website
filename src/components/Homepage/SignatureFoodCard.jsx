@@ -10,7 +10,7 @@ const SignatureFoodCard = ({ item }) => {
       </div>
       <div className="h-[200px]">
         <img
-          src={"/momos-in-plate-1.png"}
+          src={item?.image}
           alt="Momo Wagon"
           height={250}
           width={250}
