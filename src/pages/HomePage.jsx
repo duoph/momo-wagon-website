@@ -18,7 +18,7 @@ const HomePage = () => {
 
     <>
     <Helmet>
-      <title>Home-MomoWagon</title>
+      <title>MomoWagon</title>
       <meta  name="description" content="  Discover the story behind Momo Wagon, a culinary venture offering authentic Himalayan momos. Join us on a gastronomic journey of passion, innovation, and exceptional food."/>
      <link rel="canonical" href="https://www.momowagon.com/" />  
      
