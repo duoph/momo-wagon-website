@@ -71,7 +71,7 @@ const AboutUs = () => {
         </div>
         <div className="flex items-center flex-col justify-center md:gap-56  gap-8 md:flex-row md:px-64">
           <div className="flex flex-col items-center justify-center gap-2">
-            <h1 className="text-momo-red text-[25px] mont-bold flex gap-3 items-center"><TbTargetArrow className="text-momo-red size-9 " />Our Mission</h1>
+            <h1 className="text-momo-red text-[25px] mont-bold flex gap-3 items-center"><TbTargetArrow className="text-momo-primary size-9 " />Our Mission</h1>
             <p className="mont-reg">
               "Our mission at Momo Wagon is simple—to bring authentic Himalayan
               cuisine, and the joy of freshly made momos, to the tables of every
@@ -79,7 +79,7 @@ const AboutUs = () => {
             </p>
           </div>
           <div className="flex flex-col items-center justify-center gap-2">
-            <h1 className="text-momo-red text-[25px] mont-bold flex gap-3 items-center"><FaEye className="text-momo-red size-9" />Our Vision</h1>
+            <h1 className="text-momo-red text-[25px] mont-bold flex gap-3 items-center"><FaEye className="text-momo-primary size-9" />Our Vision</h1>
             <p className="mont-reg">
               "To be the go-to destination for delightful Himalayan momos,
               spreading joy and flavors in every town. Momo Wagon envisions a

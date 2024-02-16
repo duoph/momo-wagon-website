@@ -8,6 +8,7 @@ import GetInTouchContainer from "../components/Homepage/GetInTouchContainer";
 import { Helmet } from "react-helmet";
 
 
+
 document.title = "MomoWagon";
 
 
@@ -32,6 +33,7 @@ const HomePage = () => {
       <DiningExperience />
       <VoicesOfSatisfaction />
       <GetInTouchContainer />
+ 
     </div>
     </>
   );

@@ -7,6 +7,7 @@
   import AboutUs from "./pages/AboutUs";
   import Menu from "./pages/Menu";
   import { Helmet } from "react-helmet";
+  import BackToTopButton from "./BackToTopButton";
 
   function App() {
     return (
@@ -55,6 +56,7 @@
           <Route path="/about-us" element={<AboutUs />} />
           <Route path="/menu" element={<Menu />} />
         </Routes>
+        <BackToTopButton/>
         <Footer />
       </HashRouter>
     );
