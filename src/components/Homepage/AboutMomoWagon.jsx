@@ -23,7 +23,7 @@ const AboutMomoWagon = () => {
         <div className="relative flex items-center flex-col justify-center overflow-hidden w-1/2">
           <div className="absolute lg:flex hidden -right-[400px] -z-10 bg-red-blob  bg-no-repeat lg:bg-left bg-center md:bg-110 w-full lg:w-[120%] h-full"></div>
           <img
-            className="w-full  md:-mr-[200px]  "
+            className="w-full  md:-mr-[200px]"
             src={"/truck-sketch.png"}
             alt="Image"
           />
