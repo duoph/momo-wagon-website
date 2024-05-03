@@ -11,10 +11,10 @@ const GetInTouch = () => {
           "Delightful Bites Await: Reach Out and Connect with Our Momo Haven!"
         </span>
         <a href="tel:7012253518">
-            <button className="bg-momo-primary px-4 py-2 hover:bg-yellow-600 rounded-2xl mont-bold">
-              Call Now
-            </button>
-          </a>
+          <button className="bg-momo-primary px-4 py-2 hover:bg-yellow-600 rounded-2xl mont-bold">
+            Call Now
+          </button>
+        </a>
       </div>
       <div className="flex flex-col gap-2">
         <div className="flex items-center gap-3 justify-start">
@@ -42,12 +42,24 @@ const GetInTouch = () => {
         <div className="flex flex-col items-center justify-center gap-3">
           <h1 className="mont-bold text-[20px] ">Follow Us</h1>
           <div className="flex items-center justify-center gap-2">
-            <img className="w-8 transition-transform transform hover:scale-125" src="/twitter.svg" alt="twiiter" />
+            <img
+              className="w-8 transition-transform transform hover:scale-125"
+              src="/twitter.svg"
+              alt="twiiter"
+            />
             <a href="https://www.instagram.com/momowagon_india/">
-              <img className="w-8 transition-transform transform hover:scale-125" src="/insta.svg" alt="instagram" />
+              <img
+                className="w-8 transition-transform transform hover:scale-125"
+                src="/insta.svg"
+                alt="instagram"
+              />
             </a>
             <a href="https://www.facebook.com/momowagonindia/">
-              <img className="w-8 transition-transform transform hover:scale-125" src="/facebook.svg" alt="facebook" />
+              <img
+                className="w-8 transition-transform transform hover:scale-125"
+                src="/facebook.svg"
+                alt="facebook"
+              />
             </a>
           </div>
         </div>

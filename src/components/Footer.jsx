@@ -17,7 +17,6 @@ const Footer = () => {
             NH 66, opp. TMM convention center, Palathara, Kottakkal,Kerala
             676501
           </p>
-          
 
           {/* <div className="flex items-center justify-center gap-2">
             <a href="https://www.instagram.com/momowagon_india/">

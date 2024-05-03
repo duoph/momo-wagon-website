@@ -22,7 +22,7 @@ const DrawerWithNavigation = () => {
       <Drawer
         overlay={false}
         placement={"right"}
-      className="bg-black text-white mont-reg overflow-"
+        className="bg-black text-white mont-reg overflow-"
         open={open}
         onClose={closeDrawer}
       >
