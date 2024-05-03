@@ -21,13 +21,13 @@ const SignatureFood = () => {
       </div>
       <div className="flex items-center justify-center">
         <div className="lg:hidden flex items-center justify-center">
-          {/* <Carousel arrows className="w-[280px]" autoplay infinite> */}
+          <Carousel arrows className="w-[280px]" autoplay infinite>
           {signatureMomos.map((item) => (
             <div key={item.id}>
               <SignatureFoodCard item={item} />
             </div>
           ))}
-          {/* </Carousel> */}
+          </Carousel>
         </div>
 
         <div className="lg:flex gap-4 items-center justify-center flex-wrap hidden">
