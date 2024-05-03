@@ -17,18 +17,14 @@ const Footer = () => {
             NH 66, opp. TMM convention center, Palathara, Kottakkal,Kerala
             676501
           </p>
-          <a href="tel:7012253518">
-            <button className="bg-momo-primary px-4 py-2 hover:bg-yellow-600 rounded-2xl mont-bold">
-              Call Now
-            </button>
-          </a>
+          
 
-          <div className="flex items-center justify-center gap-2">
+          {/* <div className="flex items-center justify-center gap-2">
             <a href="https://www.instagram.com/momowagon_india/">
-              <img className="w-8" src="/twitter.svg" alt="twiiter" />
+              <img className="w-8 " src="/twitter.svg" alt="twiiter" />
             </a>
             <a href="">
-              <img className="w-8" src="/insta.svg" alt="instagram" />
+              <img className="w-8 " src="/insta.svg" alt="instagram" />
             </a>
             <a href="">
               <img className="w-8" src="/facebook.svg" alt="facebook" />
@@ -36,7 +32,7 @@ const Footer = () => {
             <a href="">
               <img className="w-8" src="/whatsapp.svg" alt="whatsapp" />
             </a>
-          </div>
+          </div> */}
         </div>
         <div>
           <h1 className="underline mont-bold">Quick Links</h1>

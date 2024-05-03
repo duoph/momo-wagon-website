@@ -3,13 +3,18 @@ import React from "react";
 const GetInTouch = () => {
   return (
     <div className=" h-[300px] w-full px-10  py-[40px] flex flex-col md:flex-row mt-20">
-      <div className="px-10">
+      <div className="px-10 flex flex-col justify-between">
         <h1 className="text-[30px] font-bold  text-momo-red mont-heavy">
           Get in Touch
         </h1>
         <span className="text-sm mont-bold">
           "Delightful Bites Await: Reach Out and Connect with Our Momo Haven!"
         </span>
+        <a href="tel:7012253518">
+            <button className="bg-momo-primary px-4 py-2 hover:bg-yellow-600 rounded-2xl mont-bold">
+              Call Now
+            </button>
+          </a>
       </div>
       <div className="flex flex-col gap-2">
         <div className="flex items-center gap-3 justify-start">
@@ -37,12 +42,12 @@ const GetInTouch = () => {
         <div className="flex flex-col items-center justify-center gap-3">
           <h1 className="mont-bold text-[20px] ">Follow Us</h1>
           <div className="flex items-center justify-center gap-2">
-            <img className="w-8" src="/twitter.svg" alt="twiiter" />
+            <img className="w-8 transition-transform transform hover:scale-125" src="/twitter.svg" alt="twiiter" />
             <a href="https://www.instagram.com/momowagon_india/">
-              <img className="w-8" src="/insta.svg" alt="instagram" />
+              <img className="w-8 transition-transform transform hover:scale-125" src="/insta.svg" alt="instagram" />
             </a>
             <a href="https://www.facebook.com/momowagonindia/">
-              <img className="w-8" src="/facebook.svg" alt="facebook" />
+              <img className="w-8 transition-transform transform hover:scale-125" src="/facebook.svg" alt="facebook" />
             </a>
           </div>
         </div>
