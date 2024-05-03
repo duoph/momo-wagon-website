@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className="relative w-full overflow-hidden">
       <div className="bg-red-blob hidden lg:flex w-[500px] h-[500px] absolute bottom-[100px] -left-[350px]"></div>
-      <div className="bg-yellow-blob hidden lg:flex w-[500px] h-[500px] absolute -right-[300px] top-[100px] "></div>
+      <div className="bg-yellow-blob hidden lg:flex w-[500px] h-[500px] absolute -right-[300px] top-[100px] z-[-999] "></div>
       <div className=" w-full flex items-center lg:px-[200px] md:px-16 px-6 h-[400px] justify-between ">
         <div className="flex flex-col items-center justify-center gap-2">
           <img
@@ -17,12 +17,12 @@ const Footer = () => {
             NH 66, opp. TMM convention center, Palathara, Kottakkal,Kerala
             676501
           </p>
-         <a href="tel:7012253518">
-         <button className="bg-momo-primary px-4 py-2 hover:bg-yellow-600 rounded-2xl mont-bold">
-         Call Now
-          </button>
-          </a> 
-        
+          <a href="tel:7012253518">
+            <button className="bg-momo-primary px-4 py-2 hover:bg-yellow-600 rounded-2xl mont-bold">
+              Call Now
+            </button>
+          </a>
+
           <div className="flex items-center justify-center gap-2">
             <a href="https://www.instagram.com/momowagon_india/">
               <img className="w-8" src="/twitter.svg" alt="twiiter" />

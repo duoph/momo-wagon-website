@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="text-white flex flex-col items-center justify-center">
           <h1 className="text-[40px] md:text-[80px] mont-heavy  ">MOMO WAGON</h1>
           <p className="text-[20px] md:text-[30px] font-light mont-reg">
-            Authentic Himalayan Cuisine
+            Authentic Himalayan Cuisine 
           </p>
         </div>
         <div className="flex md:text-[20px] text-[15px]  text-white gap-3 items-center justify-center">

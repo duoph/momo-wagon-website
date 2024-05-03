@@ -29,7 +29,7 @@ function BackToTopButton() {
           className="w-[30px] text-black bottom-[60px] right-[60px] height-[50px] fixed"
           onClick={scrollup}
         >
-          <IoIosArrowDropupCircle className="text-[60px]" />
+          <IoIosArrowDropupCircle className="text-[60px] z-[999]" />
         </button>
       )}
     </div>
