@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <div className="relative w-full overflow-hidden">
+    <div className="relative w-full overflow-hidden z-[-999]">
       <div className="bg-red-blob hidden lg:flex w-[500px] h-[500px] absolute bottom-[100px] -left-[350px]"></div>
       <div className="bg-yellow-blob hidden lg:flex w-[500px] h-[500px] absolute -right-[300px] top-[100px] z-[-999] "></div>
       <div className=" w-full flex items-center lg:px-[200px] md:px-16 px-6 h-[400px] justify-between ">
@@ -42,12 +42,12 @@ const Footer = () => {
           <h1 className="underline mont-bold">Quick Links</h1>
           <div className="text-[15px] flex items-start justify-center flex-col mont-reg">
             <Link to="/about-us">About Us</Link>
-            <Link to="/menu">Menu</Link>
+            <Link to="https://themomowagon.shopto.store/">Menu</Link>
             <Link to="/team">Team</Link>
             <Link to="/company">Company</Link>
-            <Link to="/terms-of-service">Terms of Service</Link>
-            <Link to="/privacy-policy">Privacy Policy</Link>
-            <Link to="/faq">Faq</Link>
+            <Link to="#">Terms of Service</Link>
+            <Link to="#">Privacy Policy</Link>
+            <Link to="#">Faq</Link>
           </div>
         </div>
       </div>

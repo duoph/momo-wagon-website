@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import { IoMenu } from "react-icons/io5";
-import { IoMdClose } from "react-icons/io";
 import DrawerBar from "./Homepage/Drawer";
 import { Link, useLocation } from "react-router-dom";
 
@@ -16,7 +14,7 @@ const Header = () => {
   console.log(location);
 
   return (
-    <div className="flex h-[100px] md:px-28  px-5 items-center justify-between  lg:mt-5 ">
+    <div className="flex h-[100px] md:px-28  px-5 items-center justify-between  lg:mt-5  scroll-smooth">
       <Link to={"/"}>
         {whiteLogo ? (
           <img

@@ -50,7 +50,7 @@
         </Helmet>
         <Header />
         <Routes>
-          <Route path="/" element={<HomePage />} />
+          <Route path="/" element={<HomePage/>} />
           <Route path="/team" element={<Team />} />
           <Route path="/company" element={<Company />} />
           <Route path="/about-us" element={<AboutUs />} />
